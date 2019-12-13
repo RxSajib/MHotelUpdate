@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/updatebackgroundiimage"
+    tools:context=".HelpLineActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarIDd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ContactsUsButtonID"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:text="Contacts Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ToolbarIDd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="We'd love to Hear from You"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp">
+
+
+        <RelativeLayout
+            android:id="@+id/onee"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/FacebookButtonID"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/facebooklogo" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/TweterID"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/tweetericon" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/InstgramID"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/instagram" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/onee"
+            android:layout_marginTop="20dp">
+
+
+            <RelativeLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/Location"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/Location"
+                    android:text="Al Khor Road, Near Corniche Hall,Ras Al Khaimah – UAE"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/a"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/call" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/phone"
+                    android:text="+971 7 205 0505"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bb"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/b"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/emailicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/email"
+                    android:text="reservation@mangrovehotel.ae"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/bbb"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/bb"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/emailtwo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/emailicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/emailtwo"
+                    android:text="contactus@mangrovehotel.ae"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/HelpLineButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bbb"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="HelpLine"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

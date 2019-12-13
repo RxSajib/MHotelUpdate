@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603690266041",
+    "firebase_url": "https://mangrovehotelapp.firebaseio.com",
+    "project_id": "mangrovehotelapp",
+    "storage_bucket": "mangrovehotelapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603690266041:android:f98d7523daa16686489a68",
+        "android_client_info": {
+          "package_name": "com.mangrovehotel.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603690266041-tn1f5sjc988fk4k8lem9j8p1udih42ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mangrovehotel.com",
+            "certificate_hash": "72140c0ca2e5270977d325fef5724e31ba8e88d8"
+          }
+        },
+        {
+          "client_id": "603690266041-7oablvh5aupq5kvlnkum9mfm0b6o4h8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtbuLdWQ5xAKbbrJfZRM9uwizKA1X1Q20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603690266041-7oablvh5aupq5kvlnkum9mfm0b6o4h8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

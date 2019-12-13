@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TramsAncConditions">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/TramConditionIDToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TramConditionIDToolbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/Applogo"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/applogo" />
+
+                <TextView
+                    android:id="@+id/ODOD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Applogo"
+                    android:layout_centerHorizontal="true"
+                    android:text="FACTSHEET"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ODOD"
+                    android:layout_marginTop="20dp"
+                    android:text="WELCOME TO RAS AL KHAIMAH"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/welcometext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/welcome"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/welcometext"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/accom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/welcometext"
+                    android:layout_marginTop="20dp"
+                    android:text="“ACCOMMODATION”"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/accomtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/accom"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/accom"
+                    android:textSize="15dp" />
+
+
+                <ImageView
+                    android:id="@+id/screenshot_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/accomtext"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/scranshot_one">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/dellingID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/screenshot_one"
+                    android:layout_marginTop="20dp"
+                    android:text="““DINING””"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dellingtextID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dellingID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dellingtext"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/OLIVIAID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dellingtextID"
+                    android:layout_marginTop="20dp"
+                    android:text="““OLIVIA RESTAURANT””"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/OLIVIAIDtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/OLIVIAID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/olivia_text"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/OLIVIAIDtext"
+                    android:layout_marginTop="20dp"
+                    android:text="7 SEASONS"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/seventext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/seven"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/seven_session"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/MANGO_LOUNGEID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/seventext"
+                    android:layout_marginTop="20dp"
+                    android:text="MANGO LOUNGE"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/MANGO_LOUNGEIDtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MANGO_LOUNGEID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Mango"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/HookanID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MANGO_LOUNGEIDtext"
+                    android:layout_marginTop="20dp"
+                    android:text="THE HOOKAH LOUNGE"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/HookanText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/HookanID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Hookantext"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/ConrnercafeID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/HookanText"
+                    android:layout_marginTop="20dp"
+                    android:text="THE CORNER CAFE"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ConnertextID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ConrnercafeID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/CornerCafetext"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/ServicesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ConnertextID"
+                    android:layout_marginTop="20dp"
+                    android:text="“SERVICES AND FACILITIES”"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ServiceTextID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ServicesID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Services"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/PoolID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ServiceTextID"
+                    android:layout_marginTop="20dp"
+                    android:text="POOL AND GYM"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Pooltext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/PoolID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pool"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/SpaID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pooltext"
+                    android:layout_marginTop="20dp"
+                    android:text="SPA &amp; WELLNESS"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Spatext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/SpaID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/spa"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/MettingID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Spatext"
+                    android:layout_marginTop="20dp"
+                    android:text="MEETINGS AND EVENTS"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Mettingtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MettingID"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mettings"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/screenshot_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Mettingtext"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/screenshot_two"></ImageView>
+
+
+                <RelativeLayout
+                    android:id="@+id/ArbiclayoutID"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/screenshot_two"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/arabic"
+                        android:background="@color/colorPrimary"></View>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/arabic"
+                        android:background="@color/colorPrimary"></View>
+
+                    <TextView
+                        android:id="@+id/arabic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="ARABIC"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ArbiclayoutID"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/arbicone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ArbiclayoutID"
+                    android:text="‫الخيمة‬ ‫رأس‬ ‫إمارة‬ ‫في‬ ‫بكم‬ ‫مرحبا‬"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

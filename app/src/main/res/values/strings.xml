@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">MangroveHotel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcometext">
+        An Emirate on the rise, Ras AI Khaimah offers a luxurious yet reasonably priced gateway
+for both leisure and business travelers. It is located in the Northern Emirates, just 45
+minutes away from Dubai International Airport. Mangrove Hotel is ideally just five
+minutes away from the heart of the city overlooking the impeccable mangrove islands
+and lagoons, the Arabian Gulf and the majestic Al Hajar Mountains. Mangroves and
+salt flats form a large part of the coastal and inland landscape. The mangroves, which
+are home to a variety of wildlife, including flamingos, extend right into the Centre of Ras
+Al Khaimah bringing a rich sense of nature into the city.
+Visitors can explore the mangroves by taking kayak excursions and literally lose
+themselves in the natural beauty.
+    </string>
+
+
+    <string name="accom">Mangrove Hotel offers 27 Standard Rooms, 57 Superior Rooms, 82 Suites and 6
+Presidential Suites while a portion of this inventory has been upgraded with more
+privileges, benefits and access to the Executive Lounge. All rooms are elegantly
+designed and equipped with a full array of amenities to make your stay productive and
+peaceful.
+The rooms (29 - 46 sqm) are spacious, comfortable and an ideal sanctuary for families
+and groups traveling together.
+The suites (60 sqm) are beautifully appointed and boast breath taking panoramic view
+of the Mangrove and Arabian Gulf. These Suite rooms deliver the highest level of
+elegance, sophistication, luxury and personal service along with the option of having a
+connecting Standard Room creating a two-bedroom unit.
+The Presidential Suites (92 sqm), located on the top floor of the hotel offers
+accommodation suitable for diplomats, executives and businessmen.
+The Executive Lounge is located on the 12th floor and offers an enhanced, personalized
+guest experience with its privacy, the attentive service of the Executive Lounge Guest Relations team, and a wealth of exclusive amenities when booking any of the
+executive rooms or suites situated between the highest floors (12th – 18th floors).</string>
+
+
+    <string name="dellingtext">Five on-site cafes, bars and restaurants allow the guests to experience delicious
+gastronomic and authentic cuisines without leaving the hotel grounds. Guests can dine
+throughout the day with a panoramic view of the mangrove and tasty buffet and a la
+carte menu at the Olivia Restaurant, or simple authentic themed dinner at the 7
+Seasons. The Corner Café, Mango Lounge and The Hookah Lounge are there for casual
+gatherings and dining. Guests can also enjoy 24 hour In-Room Dining.</string>
+
+    <string name="olivia_text">(Breakfast I Lunch I Dinner)\n
+A Variety of Mediterranean cuisine awaits you at the Olivia Restaurant. Whether you
+are engaging in casual business or romantic dining, Olivia captivates food lovers with its
+sweeping view of the mangrove. The selection of specialties spanning a wide variety of
+cultures with distinct cuisine and ensure a delightful dining experience.</string>
+
+    <string name="seven_session">(Dinner)\n
+Dining is a very important element of your holiday experience. With this in mind, every
+effort is made to ensure that the quality of our food is set to very high level with a focus
+on delivering a diverse theme every night. With the warm authentic ambiance, 7
+Seasons offers diners countless reasons to enjoy genuine food delicacies.</string>
+
+    <string name="Mango">Mango Lounge offers an ambience for relaxation and socializing, with live
+entertainment, signature drinks and unbeatable bar fare. It is the perfect place to be in
+the evening.</string>
+
+
+    <string name="Hookantext">(Poolside)\n
+Every day feels like a holiday at The Hookah Lounge. Enjoy a snack, an ice-cold
+smoothie of your choice of refreshing beverage or shisha by the pool in the tropical
+afternoon air as you relax and unwind.</string>
+
+    <string name="CornerCafetext">A quiet garden of unwinding, “The Corner Café” is a favorite among residents. Located
+right on lobby level, it’s the perfect spot for a healthy breakfast, snack or any-time-ofthe-day meal. No shortcuts here! Our baked goods are proudly and meticulously made
+with real home-inspired ingredients: real butter, fresh cream, luscious fruit, and fine
+chocolate and nuts. Our meal offerings are based on delicious, tried and true recipes
+that will have you coming back for more.</string>
+
+    <string name="Services">Mangrove Hotel offers a wide range of guest facilities and services. Facilities include a
+wellness center, swimming pool, GYM, business center, meetings rooms alongside
+essential services like 24-hour multilingual team members, express check-in &amp; check-out,
+room service, laundry service, gift shop, valet parking, free WI FI.</string>
+
+
+    <string name="pool">(Pool: Open daily from 08:00 AM - 08:00 PM)\n
+(GYM: Open daily from 06:30 AM - 08:00 PM)\n
+If you love your workout session then continue your routine in our well-equipped gym,
+fully stocked with the latest cardio vascular and strength machines giving every
+opportunity to break a sweat.</string>
+
+    <string name="spa">Located on the 1st floor, our spa creates an atmosphere of comfort and elegance,
+where our friendly and expert staff will help you unwind from the worries of the world
+and revive your inner spirit. The spa consists of 4 treatment rooms, 2 steam rooms and
+one sauna.</string>
+
+    <string name="mettings">Mangrove hotel has two meeting venues, Venus and Mars both are equipped with the
+latest equipment and can be styled differently to make your team and your guests feel
+more than welcome. We all know how tedious and mind-gobbling business meetings
+are, so we are here to help you make your corporate meetings as innovative and lively
+as possible. </string>
+    <string name="info"><![CDATA[Key Services and Facilities 24hour reception and concierge services Free Wi-Fi 24 hour in-room dining* 24/7 security and CCTV surveillance Laundry and dry cleaning service* Foreign Exchange, Travel and Tours Desk* swimming pools, kids club & gym Conference and banqueting facilities * 24 hour business centre* * charges apply]]></string>
+
+
+    <string name="polotinic">Check-in and Check-out \n\n
+        Check-in is from 14:00 hrs on the day of arrival.
+        Check-out on day of departure is 12:00 noon.
+        Extra charges apply for guaranteed early check-in and late check-out. If you plan to arrive early and don\'t wish to pre-register your booking, the hotel is happy to provide complimentary luggage storage and refreshment facilities.
+        To ensure we are well prepared, kindly advise your estimated time of arriving at the hotel.
+        Please share any special preferences and we will do our best to accommodate them.\n
+
+        Cancellation\n
+        Cancellations of bookings are to be made direct with the hotel at least 2 days prior to the arrival date. A cancellation fee equal to  one (1) night’s tariff will apply for cancellations received by the hotel within 2 days of the arrival date.  In the event of a cancellation not being received by the hotel or a no-show, a cancellation fee equal to one (1) night’s tariff will apply.. All cancellations are to be communicated in writing to the hotel reservations department and be duly acknowledged by the hotel. \n\n
+
+        Note - Hotel requires a valid credit card to guarantee the reservation, for booking guaranteed with credit card hotel reserves the right to pre-authorize the same and verify prior to arrival. </string>
+
+
+    <string name="arbicone">
+
+
+
+</string>
+
+    <string name="iteamsone">
+
+        City view\n
+        TV\n
+        Telephone\n
+        Cable Channels\n
+Flat-screen TV\n
+Safety Deposit Box\n
+Air conditioning\n
+Iron\n
+Ironing Facilities\n
+Seating Area\n
+Sofa\n
+Tumble dryer\n
+
+
+    </string>
+
+    <string name="iteamstwo">
+       - 10% discount\n
+- Best Online Price Guaranteed\n
+- Priority Room Allocation and Upgrades\n
+- Complimentary Wi-Fi\n
+- Flexible Terms and Conditions\n
+    </string>
+
+
+    <string name="iteams_three">Refrigerator\n
+Electric kettle\n
+Wake-up service\n
+Towels/Sheets (extra fee)\n
+Towels\n
+Linen\n
+Upper floors accessible by elevator\n</string>
+
+
+
+
+    <string name="facebook_app_id">1001295573560799</string>
+    <string name="fb_login_protocol_scheme">fb1001295573560799</string>
+
+</resources>
+
+

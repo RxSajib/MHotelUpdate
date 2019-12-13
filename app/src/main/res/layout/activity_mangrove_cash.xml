@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MangroveCash">
+
+
+    <RelativeLayout
+        android:id="@+id/HeadID"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/nameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="0 AED"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/HeadID">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/Top"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#DB0000">
+
+                    <TextView
+                        android:id="@+id/CouponTextID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exclusive Coupon"
+                        android:textColor="@android:color/white"
+                        android:textSize="17dp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:id="@+id/OvalID"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/CouponTextID"
+                        android:src="@drawable/subcriber_stoke" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/OvalID"
+                        android:text="For subscribers only"
+                        android:textColor="@android:color/white"
+                        android:textSize="13dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/AA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Top"
+                    android:background="@drawable/booking_fromdesign">
+
+                    <LinearLayout
+                        android:id="@+id/MidleIDd"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:weightSum="3">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Enjoy your 10% off your stay"
+                                android:textColor="@android:color/white"
+                                android:textSize="27dp" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/discountone">
+
+
+                            </ImageView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/MidleIDd"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/CodeTextt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Enter your code on the Booking Form"
+                            android:textColor="@android:color/white"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:id="@+id/LL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/CodeTextt"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:weightSum="4">
+
+
+                            <TextView
+                                android:id="@+id/One"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="2.5"
+                                android:background="@drawable/book_nowedittext_design"
+                                android:padding="12dp"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black"
+                                android:textColorHint="@android:color/black">
+
+                            </TextView>
+
+
+
+
+                            <Button
+                                android:id="@+id/ButtonOneID"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1.2"
+                                android:background="@drawable/book_buttondesign"
+                                android:text="Book now"
+                                android:textColor="@android:color/white">
+
+                            </Button>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/Fuck"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/AA"
+                    android:layout_marginTop="10dp"
+                    android:background="#DB0000">
+
+                    <TextView
+                        android:id="@+id/CouponTextIDs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exclusive Coupon"
+                        android:textColor="@android:color/white"
+                        android:textSize="17dp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:id="@+id/OvalIDaa"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/CouponTextIDs"
+                        android:src="@drawable/subcriber_stoke" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/OvalIDaa"
+                        android:text="For subscribers only"
+                        android:textColor="@android:color/white"
+                        android:textSize="13dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Fucktwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Fuck"
+                    android:background="@drawable/booking_fromdesign">
+
+                    <LinearLayout
+                        android:id="@+id/MidleID"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:weightSum="3">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Earn Cashback \nGet 50AED Reward"
+                                android:textColor="@android:color/white"
+                                android:textSize="22dp" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/coion">
+
+
+                            </ImageView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/MidleID"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/CodeTexts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Enter your code on the Booking Form"
+                            android:textColor="@android:color/white"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:id="@+id/LL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/CodeTexts"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:weightSum="4">
+
+
+                            <TextView
+                                android:id="@+id/two"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="2.5"
+                                android:background="@drawable/book_nowedittext_design"
+                                android:padding="12dp"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/ButtonTwoID"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1.2"
+                                android:background="@drawable/book_buttondesign"
+                                android:text="Book now"
+                                android:textColor="@android:color/white">
+
+                            </Button>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/DDDD"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/Fucktwo"
+                    android:layout_marginTop="10dp"
+                    android:background="#DB0000">
+
+                    <TextView
+                        android:id="@+id/CouponTextIDa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="Exclusive Coupon"
+                        android:textColor="@android:color/white"
+                        android:textSize="17dp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:id="@+id/OvalIDa"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/CouponTextIDa"
+                        android:src="@drawable/subcriber_stoke" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/OvalIDa"
+                        android:text="For subscribers only"
+                        android:textColor="@android:color/white"
+                        android:textSize="13dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/FuckThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/DDDD"
+                    android:background="@drawable/booking_fromdesign">
+
+                    <LinearLayout
+                        android:id="@+id/MidleIDs"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:weightSum="3">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Collect 9 Nights Get \nA Reward Night"
+                                android:textColor="@android:color/white"
+                                android:textSize="22dp" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/sunnicon">
+
+
+                            </ImageView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@+id/MidleIDs"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/CodeText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Enter your code on the Booking Form"
+                            android:textColor="@android:color/white"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:id="@+id/LL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/CodeText"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:weightSum="4">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="2.5"
+                                android:background="@drawable/book_nowedittext_design"
+                                android:hint="FREENIGHT"
+                                android:padding="12dp"
+                                android:singleLine="true"
+                                android:textColor="@android:color/black"
+                                android:textColorHint="@android:color/black">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/ButtonThreeID"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1.2"
+                                android:background="@drawable/book_buttondesign"
+                                android:text="Book now"
+                                android:textColor="@android:color/white">
+
+                            </Button>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

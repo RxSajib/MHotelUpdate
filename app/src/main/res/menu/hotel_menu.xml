@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/HomeID"
+        android:icon="@drawable/home"
+        android:title="Home"
+        ></item>
+
+    <item
+        android:id="@+id/WhyMangroveID"
+        android:icon="@drawable/whymangrove"
+        android:title="Why Mangrove"
+        ></item>
+
+    <item
+        android:id="@+id/BestDealsID"
+        android:title="OFFER"
+        android:icon="@drawable/beastdeals"
+        ></item>
+
+
+
+    <item
+        android:id="@+id/MangroveCashID"
+        android:title="Mangrove Rewards"
+        android:icon="@drawable/doller"
+        ></item>
+
+    <item
+        android:id="@+id/ReferFeiendID"
+        android:title="Refer A Friend"
+        android:icon="@drawable/referfriends"
+        ></item>
+
+    <item
+        android:id="@+id/TramsConditionID"
+        android:icon="@drawable/termscondition"
+        android:title="Terms &amp; Condition"
+        ></item>
+    <item
+        android:id="@+id/FeedbackID"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"
+        ></item>
+
+    <item
+        android:id="@+id/HelpID"
+        android:icon="@drawable/help"
+        android:title="Help Line"
+        ></item>
+
+    <item
+        android:id="@+id/LogoutID"
+        android:title="LogOut"
+        android:icon="@drawable/exit"
+        ></item>
+
+
+
+
+
+
+
+
+</menu>

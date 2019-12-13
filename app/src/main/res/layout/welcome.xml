@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".WelcomeActivity">
+
+
+    <TextView
+        android:id="@+id/WelcomeTextID"
+        android:textSize="35sp"
+        android:typeface="monospace"
+        android:layout_above="@+id/ImageIID"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/WelcomeTextDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/WelcomeTextID"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="25dp"
+        android:text="May all who enter as Guest, leave as Friends"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/ImageIID"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcomeimage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+    </ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragement_three">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagethree" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <com.hsalf.smilerating.SmileRating
+                android:id="@+id/DonationSysteam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="30dp"
+                android:visibility="gone">
+
+            </com.hsalf.smilerating.SmileRating>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <RadioGroup
+                    android:id="@+id/RadioGroupID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#FFC107"
+                        android:drawableTint="#FFC107"
+                        android:text="Bad"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:buttonTint="#FFC107"
+                        android:drawableTint="#FFC107"
+                        android:text="Good"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp">
+
+                    </RadioButton>
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:buttonTint="#FFC107"
+                        android:drawableTint="#FFC107"
+                        android:text="Better"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp">
+
+                    </RadioButton>
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:buttonTint="#FFC107"
+                        android:drawableTint="#FFC107"
+                        android:text="Best"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:text="please sweap to next"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+
+
+        <TextView
+            android:id="@+id/CleanRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="How Clean was your room upon arrival"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        />
+
+
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/CleanRoomaSRatingID"
+            android:layout_below="@id/CleanRoom"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </com.hsalf.smilerating.SmileRating>
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

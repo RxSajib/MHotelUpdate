@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragement_two">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:text="please sweap to next"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagetwo" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Rate your experience as per the following aspects"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head"
+                android:layout_marginTop="20dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <RelativeLayout
+                        android:id="@+id/lone"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/processone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Check-in process"
+                            android:textColor="@android:color/white"
+                            android:textSize="18dp" />
+
+                        <RatingBar
+                            android:id="@+id/CheackInprocssRatingId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/processone"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/white"
+                            android:progressTint="#FFC107" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutthree"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@id/lone"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/processtwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Room Services"
+                            android:textColor="@android:color/white"
+                            android:textSize="18dp" />
+
+                        <RatingBar
+                            android:id="@+id/RoomServicesRatingID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/processtwo"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/white"
+                            android:progressTint="#FFC107" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/layoutfour"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@id/layoutthree"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/k"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Bed and Lines"
+                            android:textColor="@android:color/white"
+                            android:textSize="18dp" />
+
+                        <RatingBar
+                            android:id="@+id/BedandLinesRatingID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/k"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/white"
+                            android:progressTint="#FFC107" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/layoutfive"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@id/layoutfour"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/kk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Breakfast service"
+                            android:textColor="@android:color/white"
+                            android:textSize="18dp" />
+
+                        <RatingBar
+                            android:id="@+id/BreakfastRatingID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="50dp"
+                            android:layout_toRightOf="@id/kk"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/white"
+                            android:progressTint="#FFC107" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/layoutsiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@id/layoutfive"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/kkk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Overall"
+                            android:textColor="@android:color/white"
+                            android:textSize="18dp" />
+
+                        <RatingBar
+                            android:id="@+id/OverAllratingID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120dp"
+                            android:layout_toRightOf="@id/kkk"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/white"
+                            android:progressTint="#FFC107" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:text="please sweap to next"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</FrameLayout>

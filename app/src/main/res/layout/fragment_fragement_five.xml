@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragement_five">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagefive" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/oneeee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:text="Please tell us what can we do to improve?"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EmailAddressInputID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dd"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/edit_text_design"
+            android:hint="Enter your EmailAddress"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/MessageID"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_below="@id/EmailAddressInputID"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/edit_text_design"
+            android:hint="Your answer here"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/SubmitButtonID"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MessageID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/profile_buttondesign"
+            android:text="submit"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
