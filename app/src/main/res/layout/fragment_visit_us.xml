@@ -30,6 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     app:cardCornerRadius="10dp"
+                    android:visibility="gone"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
@@ -51,6 +52,7 @@
                     android:id="@+id/TWOID"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
+                    android:visibility="gone"
                     android:layout_below="@+id/HeardID"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
@@ -76,6 +78,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
+                    android:visibility="gone"
                     android:layout_marginBottom="10dp"
                     android:layout_below="@+id/TWOID"
                     app:cardCornerRadius="10dp"
@@ -240,7 +243,6 @@
                                         android:layout_width="35dp"
                                         android:layout_height="35dp"
                                         android:src="@drawable/spa">
-
                                     </ImageView>
                                 </LinearLayout>
 

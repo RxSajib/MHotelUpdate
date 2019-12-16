@@ -42,7 +42,7 @@ public class BookNowLoginActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         if(item.getItemId() == android.R.id.home){
-            this. finish();
+             finish();
         }
 
         return super.onOptionsItemSelected(item);

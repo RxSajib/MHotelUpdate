@@ -65,7 +65,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
                 try {
                     Thread.sleep(3000);
-                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), Landing_Activity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                     finish();

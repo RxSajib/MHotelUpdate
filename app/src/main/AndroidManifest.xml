@@ -13,24 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResetPasswordActivity"></activity>
-        <activity android:name=".BestDeals" />
+        <activity android:name=".Landing_Activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ResetPasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BestDeals" android:screenOrientation="portrait"/>
         <activity
             android:name=".Feedback_Activity"
             android:screenOrientation="landscape" />
-        <activity android:name=".MangroveCash_Booknow_Activity" />
-        <activity android:name=".MangroveCash" />
-        <activity android:name=".TConditionActivity" />
-        <activity android:name=".TramsAncConditions" />
-        <activity android:name=".AdminHomeActivity" />
-        <activity android:name=".Admin_LoginActivity" />
-        <activity android:name=".HelpLineActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".Regastation_Activity" />
-        <activity android:name=".BookNowLoginActivity" />
-        <activity android:name=".Home_Activity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".MangroveCash_Booknow_Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".MangroveCash" android:screenOrientation="portrait"/>
+        <activity android:name=".TConditionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TramsAncConditions" android:screenOrientation="portrait"/>
+        <activity android:name=".AdminHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Admin_LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".HelpLineActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Regastation_Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".BookNowLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Home_Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".WelcomeActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,7 +40,7 @@
         </activity>
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat" />
+            android:theme="@style/Base.Theme.AppCompat" android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
